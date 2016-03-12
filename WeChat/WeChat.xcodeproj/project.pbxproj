@@ -15,6 +15,7 @@
 		840ECAA31C93FFCC00649F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840ECAA11C93FFCC00649F8D /* LaunchScreen.storyboard */; };
 		840ECAAE1C93FFCD00649F8D /* WeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECAAD1C93FFCD00649F8D /* WeChatTests.m */; };
 		840ECAB91C93FFCD00649F8D /* WeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECAB81C93FFCD00649F8D /* WeChatUITests.m */; };
+		840ECAC81C94013200649F8D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECAC71C94013200649F8D /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		840ECAB41C93FFCD00649F8D /* WeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840ECAB81C93FFCD00649F8D /* WeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITests.m; sourceTree = "<group>"; };
 		840ECABA1C93FFCD00649F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840ECAC61C94013200649F8D /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		840ECAC71C94013200649F8D /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				840ECA971C93FFCC00649F8D /* AppDelegate.m */,
 				840ECA991C93FFCC00649F8D /* ViewController.h */,
 				840ECA9A1C93FFCC00649F8D /* ViewController.m */,
+				840ECAC61C94013200649F8D /* Dog.h */,
+				840ECAC71C94013200649F8D /* Dog.m */,
 				840ECA9C1C93FFCC00649F8D /* Main.storyboard */,
 				840ECA9F1C93FFCC00649F8D /* Assets.xcassets */,
 				840ECAA11C93FFCC00649F8D /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				840ECA9B1C93FFCC00649F8D /* ViewController.m in Sources */,
 				840ECA981C93FFCC00649F8D /* AppDelegate.m in Sources */,
+				840ECAC81C94013200649F8D /* Dog.m in Sources */,
 				840ECA951C93FFCC00649F8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
